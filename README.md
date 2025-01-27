@@ -31,7 +31,7 @@ We assessed model performance using:
 
 ![Evaluation Metrics](BERT.png)
 
-![Evaluation Metrics](traditional\/ML.png)
+![Evaluation Metrics](Traditional\/ML.png)
 
 # Challenges & Limitations
 One of the main challenges we encountered was the limited size of the training dataset, which made it difficult for the model to generalize effectively. With only a few hundred labeled posts, the model lacked sufficient data to learn robust language patterns for suicide risk classification. Another issue was the class imbalance, as certain labels (e.g., B and C) had significantly fewer samples than others. This imbalance affected the precision and recall of those specific risk levels, making it harder for the model to make accurate predictions. Additionally, while BERT significantly improved accuracy, it also inherited biases from its pre-trained corpus, leading to cases where even neutral text was misclassified due to underlying language model biases. Addressing these challenges would require more extensive datasets, advanced augmentation techniques, and collaboration with domain experts to fine-tune the model for real-world applications.
